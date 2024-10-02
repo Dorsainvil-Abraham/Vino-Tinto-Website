@@ -1,0 +1,21 @@
+.product-details {
+    
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.product-details:hover {
+    border: 1px solid brown;
+    transform: scaleY(1.1);
+    transition: 2s ease;
+}
+
+.product-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 40px;
+   
+}

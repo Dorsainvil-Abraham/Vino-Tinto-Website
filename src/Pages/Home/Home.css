@@ -1,0 +1,90 @@
+
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    justify-content: center;
+    
+
+}
+.container-card{
+    text-align: center;
+    box-shadow: 5px 6px 8px black;
+    width: 350px;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    margin: 5px;
+
+}
+.container-card:hover {
+    opacity: 0.8;
+}
+.container-card img {
+    width: 348px;
+    height: 200px;
+    border-radius: 5px;
+    
+}
+.container-card:hover{
+    transform: scaleX(1.1);
+    transition: 2s ease;
+}
+
+.container-card p {
+    text-align: start;
+    padding-left: 6px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.container-card h3 {
+    text-align: start;
+    padding-left: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.event-container .event, .event-milan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: space-evenly;
+    
+    
+}
+.event-container div{
+    box-shadow: 4px 5px 7px black;
+    padding: 10px;
+}
+
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.blog-container .bog1, .bog2, .bog3 {
+    text-align: center;
+    width: 350px;
+    padding: 10px;
+}
+.blog-container a, .container-card a {
+    color: black;
+    font-weight: bolder;
+}
+.blog-container img:hover {
+    transform: scaleX(1.1);
+    transition: 2s ease;
+    opacity: 0.7;
+}
+.blog-container a:hover, .container-card a:hover {
+    color: brown;
+    font-weight: bolder;
+}
